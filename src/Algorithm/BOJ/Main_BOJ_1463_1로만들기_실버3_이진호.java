@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main_1463_1로만들기_실버3_이진호 {
+public class Main_BOJ_1463_1로만들기_실버3_이진호 {
     private static int cnt;
     private static int N;
 
