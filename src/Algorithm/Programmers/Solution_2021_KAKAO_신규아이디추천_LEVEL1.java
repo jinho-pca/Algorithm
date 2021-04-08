@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution_2021_KAKAO_신규아이디추천 {
+public class Solution_2021_KAKAO_신규아이디추천_LEVEL1 {
     public static void main(String[] args) throws IOException {
 //        String answer = "";
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
