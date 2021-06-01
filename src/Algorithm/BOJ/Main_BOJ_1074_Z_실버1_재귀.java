@@ -4,8 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
-public class Main_BOJ_1074_Z_실버1_이진호 {
+/*
+싸피 교수님 풀이
+ */
+public class Main_BOJ_1074_Z_실버1_재귀 {
 	private static int r;
 	private static int c;
 	private static int cnt = 0;
