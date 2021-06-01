@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 /*
 싸피 교수님 풀이
+작은부분부터 커지는 방향으로의 재귀
  */
 public class Main_BOJ_1074_Z_실버1_재귀 {
 	private static int r;
