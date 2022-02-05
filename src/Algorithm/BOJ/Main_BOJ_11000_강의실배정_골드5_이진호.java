@@ -6,15 +6,16 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
-class Lecture {
-    int start;
-    int end;
-    public Lecture(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-}
+
 public class Main_BOJ_11000_강의실배정_골드5_이진호 {
+    static class Lecture {
+        int start;
+        int end;
+        public Lecture(int start, int end) {
+            this.start = start;
+            this.end = end;
+        }
+    }
     static int N, result;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
