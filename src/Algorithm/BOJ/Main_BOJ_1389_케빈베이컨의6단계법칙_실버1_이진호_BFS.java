@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main_BOJ_1389_케빈케이컨의6단계법칙_실버1_이진호_BFS {
+public class Main_BOJ_1389_케빈베이컨의6단계법칙_실버1_이진호_BFS {
     static int N, M, min = Integer.MAX_VALUE, result;
     static ArrayList<Integer>[] graph;
     static int[] distance;
