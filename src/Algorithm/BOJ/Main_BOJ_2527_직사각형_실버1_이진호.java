@@ -37,8 +37,12 @@ public class Main_BOJ_2527_직사각형_실버1_이진호 {
 			if(r1.width + r2.width == wLength || r1.height + r2.height == hLength) { // result == b or c
 				if(r1.width + r2.width == wLength && r1.height + r2.height == hLength) {
 					result = 'c';
-				}else {
+				} else if(r1.width + r2.width == wLength && r1.height + r2.height > hLength) {
 					result = 'b';
+				} else if(r1.width + r2.width > wLength && r1.height + r2.height == hLength) {
+					result = 'b';
+				} else {
+					result = 'd';
 				}
 			}else if(r1.width + r2.width < wLength || r1.height + r2.height < hLength) {
 				result = 'd';
