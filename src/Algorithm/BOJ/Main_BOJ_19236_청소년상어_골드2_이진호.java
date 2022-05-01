@@ -58,22 +58,7 @@ public class Main_BOJ_19236_청소년상어_골드2_이진호 {
     } // end of main
     private static void moveShark(int[][] map, Shark shark, ArrayList<Fish> fishList) {
         if(shark.score > result) result = shark.score;
-        System.out.println("물고기 이동 전");
-        for(int[] x : map) System.out.println(Arrays.toString(x));
-        System.out.println();
-        System.out.println("방향");
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                if(map[i][j] <= 0) System.out.print("-1 ");
-                else System.out.print(fishList.get(map[i][j]-1).dir + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
         for(Fish fish : fishList) moveFish(map, fish, fishList);
-        System.out.println("물고기 이동 후");
-        for(int[] x : map) System.out.println(Arrays.toString(x));
-        System.out.println();
         for (int i = 1; i <= 3; i++) {
             int nr = shark.r + i * dr[shark.dir];
             int nc = shark.c + i * dc[shark.dir];
