@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Algorithm.Programmers.LEVEL2;
 
 public class Solution_2018_KAKAO_n진수게임_LEVEL2 {
     public static void main(String[] args) {

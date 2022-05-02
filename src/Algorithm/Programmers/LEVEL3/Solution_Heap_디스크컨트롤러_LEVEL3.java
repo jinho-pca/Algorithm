@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Algorithm.Programmers.LEVEL3;
 
 import java.util.PriorityQueue;
 

@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Algorithm.Programmers.LEVEL2;
 
 public class Solution_2017_KAKAO_단체사진찍기_LEVEL2 {
     public static void main(String[] args) {

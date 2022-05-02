@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Algorithm.Programmers.LEVEL3;
 
 public class Solution_2020_KAKAO_자물쇠와열쇠_LEVEL3_42점 {
     static int L, N, M, cnt;

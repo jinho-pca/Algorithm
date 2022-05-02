@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Algorithm.Programmers.LEVEL2;
 
 import java.util.*;
 /*

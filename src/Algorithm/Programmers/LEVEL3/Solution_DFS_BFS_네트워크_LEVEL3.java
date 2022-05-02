@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Algorithm.Programmers.LEVEL3;
 
 public class Solution_DFS_BFS_네트워크_LEVEL3 {
     static boolean[] visited;

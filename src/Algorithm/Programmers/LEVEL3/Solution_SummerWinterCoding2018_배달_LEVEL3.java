@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Algorithm.Programmers.LEVEL3;
 
 public class Solution_SummerWinterCoding2018_배달_LEVEL3 {
     static int INF = 500001, cnt;
